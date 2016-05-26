@@ -100,3 +100,20 @@ footer
   padding-top: 10px;
   clear: both;
 }
+ul li a {
+background: url (sprite.png) no repeat;
+display: block;
+height: 42px;
+}
+ .home a {
+   background-position: -10px 0;
+ }
+ .home a:hover {
+ background-position: -10px -47px;
+}
+.hir {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;;
+  display: block;
+}
